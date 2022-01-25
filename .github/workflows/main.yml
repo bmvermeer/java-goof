@@ -23,7 +23,7 @@ jobs:
     - name: run with tomcat
       run: | 
         cd todolist-goof/todolist-web-struts/
-        mvn tomcat7:run
+        mvn tomcat7:run &
     - name: run script
       run: |
         cd ../exploits/
